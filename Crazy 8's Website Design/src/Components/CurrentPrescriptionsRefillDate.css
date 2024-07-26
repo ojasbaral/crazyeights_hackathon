@@ -1,0 +1,21 @@
+
+.CurrentPrescriptionsRefillDate_CurrentPrescriptionsRefillDate {
+	width: 320px;
+	height: 16px;
+	display: flex;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}
+.CurrentPrescriptionsRefillDate_CurrentPrescriptionsRefillDate .CurrentPrescriptionsRefillDate_1 {
+	position: relative;
+	flex: none;
+	margin-right: 10px;
+	width: 320px;
+	height: 16px;
+	color: rgba(59,131,63,1.00);
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 500;
+	line-height: 16px;
+}

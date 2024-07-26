@@ -1,0 +1,16 @@
+
+.FormLogIn_FormLogIn {
+	width: 320px;
+	height: 322px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 24px;
+	padding-right: 24px;
+	padding-bottom: 24px;
+	padding-left: 24px;
+	box-sizing: border-box;
+	background: rgba(255,255,255,1.00);
+	border-radius: 8px;
+	border: 1px solid rgba(217.0000022649765,217.0000022649765,217.0000022649765,1);
+	box-sizing: border-box;
+}

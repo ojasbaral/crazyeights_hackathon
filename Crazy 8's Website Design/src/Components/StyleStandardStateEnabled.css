@@ -1,0 +1,10 @@
+
+.StyleStandardStateEnabled_StyleStandardStateEnabled {
+	width: 48px;
+	height: 48px;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}

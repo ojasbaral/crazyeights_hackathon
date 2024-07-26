@@ -1,0 +1,8 @@
+
+.AlignJustify_AlignJustify {
+	width: 240px;
+	height: 40px;
+	display: flex;
+	box-sizing: border-box;
+	align-items: center;
+}

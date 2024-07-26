@@ -1,0 +1,11 @@
+
+.StyleTextStateEnabledShowIconFalse_StyleTextStateEnabledShowIconFalse {
+	width: 59px;
+	height: 40px;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+	border-radius: 100px;
+}

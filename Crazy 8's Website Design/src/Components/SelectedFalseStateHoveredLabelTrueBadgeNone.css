@@ -1,0 +1,12 @@
+
+.SelectedFalseStateHoveredLabelTrueBadgeNone_SelectedFalseStateHoveredLabelTrueBadgeNone {
+	width: 104px;
+	height: 80px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 12px;
+	padding-bottom: 16px;
+	box-sizing: border-box;
+	justify-content: center;
+	align-items: center;
+}

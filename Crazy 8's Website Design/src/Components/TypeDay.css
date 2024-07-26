@@ -1,0 +1,10 @@
+
+.TypeDay_TypeDay {
+	width: 360px;
+	height: 524px;
+	display: flex;
+	flex-direction: column;
+	box-sizing: border-box;
+	background: rgba(236,230,240,1.00);
+	border-radius: 28px;
+}
