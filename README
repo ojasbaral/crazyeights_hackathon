@@ -1,0 +1,7 @@
+.env
+
+```
+POSTGRES_USER="postgres"
+POSTGRES_PASSWORD="pwd"
+POSTGRES_DB="hackathon-db"
+```
