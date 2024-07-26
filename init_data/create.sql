@@ -1,6 +1,6 @@
 DROP TABLE IF EXISTS users CASCADE;
 CREATE TABLE users(
-    user_id SERIAL PRIMARY KEY
+    user_id SERIAL PRIMARY KEY,
     email VARCHAR(100) NOT NULL,
     password VARCHAR(250) NOT NULL,
     first_name VARCHAR(50) NOT NULL,
@@ -21,7 +21,7 @@ CREATE TABLE prescriptions_users (
     start_date DATE NOT NULL,
     end_date DATE NOT NULL,
     quantity INT,
-    PRIMARY KEY (_prescription_id, _user_id),
+    PRIMARY KEY (_prescription_id, _user_id, start_date, end_date),
     FOREIGN KEY (_prescription_id) REFERENCES prescriptions(prescription_id),
     FOREIGN KEY (_user_id) REFERENCES users(user_id)
 );
