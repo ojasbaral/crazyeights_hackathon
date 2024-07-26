@@ -3,6 +3,7 @@ const app = express()
 const pgp = require('pg-promise')()
 const bodyParser = require('body-parser')
 const session = require('express-session')
+const cors = require('cors')
 // const bcrypt = require('bcrypt')
 
 const dbConfig = {
@@ -24,7 +25,8 @@ db.connect()
     console.log('ERROR:', error.message || error);
   });
 
-  app.use(bodyParser.json())
+app.use(cors())
+app.use(bodyParser.json())
 
 app.post('/register', async (req, res) => {
     const {email, password, firstName, lastName, address} = req.body
@@ -81,5 +83,5 @@ app.post('/dashboard', async (req, res) => {
 
 
 
-module.exports = app.listen(3000);
+module.exports = app.listen(8000);
 console.log('Server is listening on port 3000');
